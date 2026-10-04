@@ -1,0 +1,31 @@
+{
+  "name": "website-optimizer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production CLI for HTML, CSS, and Vanilla JS websites",
+  "type": "module",
+  "bin": {
+    "builder": "./bin/builder.mjs"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "build": "node ./bin/builder.mjs"
+  },
+  "dependencies": {
+    "cheerio": "1.2.0",
+    "chokidar": "5.0.0",
+    "commander": "15.0.0",
+    "dotenv": "^17.2.3",
+    "es-module-lexer": "3.0.2",
+    "esbuild": "0.28.2",
+    "html-minifier-terser": "^7.2.0",
+    "lightningcss": "1.33.0",
+    "parse-srcset": "1.0.2",
+    "postcss": "^8.5.6",
+    "postcss-value-parser": "4.2.0",
+    "sharp": "^0.35.5"
+  }
+}
