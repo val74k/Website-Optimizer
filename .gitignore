@@ -2,5 +2,16 @@ node_modules/
 dist/
 *_dist/
 *.website-optimizer-lock
+.optimizer-cache/
 .env
 .env.*
+
+# Tests and scratch files
+test/
+*.test.js
+*.test.mjs
+*test*.js
+*test*.mjs
+scratch/
+
+debug.log

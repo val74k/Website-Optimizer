@@ -26,6 +26,8 @@
     "parse-srcset": "1.0.2",
     "postcss": "^8.5.6",
     "postcss-value-parser": "4.2.0",
-    "sharp": "^0.35.5"
+    "purgecss": "^8.0.0",
+    "sharp": "^0.35.5",
+    "svgo": "^4.1.0"
   }
 }
